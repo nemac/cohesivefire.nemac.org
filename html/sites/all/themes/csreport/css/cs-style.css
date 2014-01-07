@@ -1,0 +1,357 @@
+/* This stylesheet contains styles meant to override values set in the
+basetheme, Lexi. All styles here will affect the site globally. */
+
+a {
+color: #069;
+text-decoration: none;
+}
+
+#main-menu li li a {
+	color: rgb(125, 125, 125);
+	background: rgb(245, 245, 245);
+}
+
+ul li.leaf {
+	list-style-image:url(../images/menu-leaf.png);
+} 
+
+ul li.expanded {
+	list-style-image: url(../images/menu-expanded.png);
+}
+
+ul li.collapsed {
+	list-style-image: url(../images/menu-collapsed.png);
+}
+
+body {
+	font-size:13px;
+	color:#333;
+}
+
+b, strong {
+	color:#444;
+}
+
+/* CONTENT STYLES */
+
+
+
+
+#main-menu li li a.active {
+background: rgb(255, 255, 255);
+}
+
+#main-menu li {
+	border-right:none;
+}
+
+#container {
+	border-bottom:thin solid #ccc;
+}
+
+a.colorbox {
+	float:right;
+	position:relative;
+	margin:10px;
+	border:none;
+	padding:5px;
+	text-align:left;
+}
+
+a.colorbox em {
+	font-size:.85em;
+	color:#666;
+}
+
+.content a img {
+	padding:0;
+}
+
+.view-content .item-list ul, ol {
+	margin-bottom:2em;
+}
+
+.view-policy-option-list .view-content .item-list ul {
+	margin-bottom:0;
+}
+
+.view-policy-option-list .view-content .item-list ul li {
+	padding:0;
+}
+
+.image-left {
+	float:left;
+	position:relative;
+	margin:10px;
+	border:thin solid #999;
+}
+
+input[type="submit"] {
+	font-size:.75em;
+	text-transform:uppercase;
+	margin:.5em;
+}
+
+ul li, ol li {
+	padding: 0 0 0 5px;
+	margin-bottom:1em;
+}
+
+ul.menu {
+	margin-left:0;
+}
+
+ol {
+	font-weight:bold;
+}
+
+ol li {
+	font-weight:normal;
+}
+
+ul, ol {
+	margin-left:15px;
+}
+
+ul.tabs li {
+	margin-bottom:0;
+}
+
+.image-front {
+	clear:both;
+	width:100%;
+	float:none;
+	text-align:center;
+}
+
+img.image-center {
+	float:none;
+}
+
+.image-right {
+	float:right;
+	position:relative;
+	margin:10px;
+	border:thin solid #999;
+}
+
+.image-thumbnail {
+	float:right;
+	position:relative;
+	margin:10px;
+	border:thin solid #999;
+}
+
+#block-menu-menu-information-menu ul li {
+	list-style-image:none;
+	list-style-type:none;
+}
+
+#block-menu-menu-information-menu ul li {
+	display:block;
+	background:#efefef;
+	padding:.5em;
+	text-align:center;
+	border-top:#fff solid medium;
+}
+
+#block-menu-menu-information-menu ul li:hover {
+	background:#ccc;
+}
+
+#block-menu-menu-information-menu ul li a {
+	display:block;
+	color:#666;
+	font-size:.8em;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+#block-menu-menu-information-menu ul li a:hover {
+	color:#333;
+}
+
+blockquote, #block-views-policy-option-list-block {
+	display:block;
+	border:thin solid #ccc;
+	padding:1em;
+	margin:1em;
+	background: rgb(250, 247, 247) url(none) no-repeat;
+	position:relative;
+	float:right;
+	width:25%;
+	clear:right;
+}
+
+blockquote.bqlg {
+	width:50%;
+}
+
+blockquote.noflo {
+	float:none;
+	width:100%;
+	margin:0;
+	margin-bottom:1em;
+}
+
+blockquote p {
+	margin-bottom:0;
+}
+
+.node-type-intersection .pane-intersection-national-priorities {
+	max-width:315px;
+	margin:0 0 1em 1em;
+	float:right;
+	position:relative;
+	border:thin dotted #ccc;
+	padding:1em;
+}
+
+.node-type-intersection .pane-intersection-national-priorities h2 {
+	font-size:18px;
+}
+
+.view-id-intersection_national_priorities table {
+	background:#FFF;
+	border:none;
+}
+
+.view-id-intersection_national_priorities td {
+	text-align:right;
+	background:#FFF;
+	border:0;
+	margin:.5em;
+}
+
+.view-id-intersection_national_priorities .term-11,
+.view-id-intersection_national_priorities .term-12,
+.view-id-intersection_national_priorities .term-13,
+.view-id-intersection_national_priorities .term-14 {
+	display:inline-table;
+	text-align:center;
+	width:100%;
+	color:#000;
+
+}
+
+.view-id-intersection_national_priorities .term-11 {
+	background-color:#FFF;
+}
+
+.view-id-intersection_national_priorities .term-12 {
+	background-color:#ffffcc;
+}
+
+.view-id-intersection_national_priorities .term-13 {
+	background-color:#ffcc66;
+}
+
+.view-id-intersection_national_priorities .term-14 {
+	background-color:#ff6600;
+}
+
+.node-type-intersection .view-intersection-national-priorities .views-row .views-field {
+	clear:both;
+}
+
+.view-id-intersection_national_priorities .views-label {
+	float:left;
+	position:relative;
+	margin-right:1em;
+}
+
+
+.node-type-intersection .field-name-field-content-page-image {
+	clear:both;
+}
+
+.node-type-intersection #block-system-main {
+	clear:none;
+}
+
+.view-id-pager_navigation table {
+	margin-top:3em;
+}
+
+.view-id-pager_navigation table, .view-id-pager_navigation td,
+.view-id-pager_navigation table tr.even, .view-id-pager_navigation table tr.odd {
+	border:none;
+	background:none;
+}
+
+td.navlink-prev, td.navlink-next {
+	font-size:.9em;
+}
+
+td.navlink-prev {
+	text-align:left;
+}
+
+td.navlink-next {
+	text-align:right;
+}
+
+.view-id-download table, .view-id-download td {
+	background:none;
+	border:none;
+	vertical-align:top;
+}
+
+.view-id-download td {
+	max-width:165px;
+	min-width:165px;
+	width:165px;
+}
+
+.view-id-download tr {
+	vertical-align:top;
+}
+
+.node-type-policy-option-map .field-name-field-map-image a:after {
+	content:attr(title);
+	text-align:center;
+	font-size:.85em;
+	text-transform:none;
+	color:#666;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+	background:none;
+	border:none;
+}
+
+.footer_credit {
+	font-size:.8em;
+	background:none;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.view-front-page-feature-blocks .views-row {
+	  width:28%;
+	  display:inline-block;
+	  position:relative;
+	  float:left;
+	  margin:auto 1em auto 1em;
+}
+
+
+@media screen and (max-width: 640px) {
+	.view-front-page-feature-blocks .views-row {
+	  width:100%
+	}
+	
+	blockquote {
+	float:none;
+	width:90%;
+	margin:0;
+	margin-bottom:1em;
+}
+}

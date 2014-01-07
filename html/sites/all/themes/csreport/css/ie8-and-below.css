@@ -1,0 +1,8 @@
+/* This stylesheet contains styles meant to override values specifically
+for use in Internet Explorer 8 and previous versions. */
+
+
+img, video {
+	max-width: 742px;
+	max-height: 576px;;
+}

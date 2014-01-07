@@ -1,0 +1,45 @@
+name = CSREPORT
+description = A subtheme of Lexi. for support <b>zymphonies@gmail.com, www.zymphonies.com</b>.
+package = Core
+version = VERSION
+core = 7.x
+base theme = lexi_responsive_theme
+
+stylesheets[all][] = css/cs-style.css
+
+; Set the conditional stylesheets that are processed by IE.
+stylesheets-conditional[lte IE 8][all][] = ie8-and-below.css
+
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[slideshow]      = Slideshow
+regions[front_welcome]  = Front Welcome
+regions[top_first]      = First top
+regions[top_second]     = Second top
+regions[top_third]      = Third top
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_username] = "shanidkv"
+settings[facebook_username] = "shanidkv"
+
+
+; Information added by drupal.org packaging script on 2013-06-02
+version = "7.x-1.0"
+core = "7.x"
+project = "lexi-responsive-theme"
+datestamp = "1370158552"
