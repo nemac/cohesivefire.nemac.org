@@ -34,8 +34,15 @@ b, strong {
 
 /* CONTENT STYLES */
 
+img {
+	width:100%;
+	height:auto;	
+}
 
-
+.view-download img {
+	width:150px;
+	height:150px;
+}
 
 #main-menu li li a.active {
 background: rgb(255, 255, 255);
