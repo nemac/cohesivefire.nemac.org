@@ -6,6 +6,10 @@ color: #069;
 text-decoration: none;
 }
 
+a:hover {
+color: #39c;
+}
+
 #main-menu li li a {
 	color: rgb(125, 125, 125);
 	background: rgb(245, 245, 245);
@@ -44,6 +48,10 @@ img {
 	height:150px;
 }
 
+.field-name-field-file img {
+    width: auto;
+}
+
 #main-menu li li a.active {
 background: rgb(255, 255, 255);
 }
@@ -62,7 +70,22 @@ a.colorbox {
 	margin:10px;
 	border:none;
 	padding:5px;
+	clear:right;
 	text-align:left;
+}
+
+.jcarousel-container img,
+.view-input-variables-page img {
+	width:100px;
+	height:auto;
+}
+
+.image-medium {
+	float: right;
+	clear:right;
+	position: relative;
+	margin: 10px;
+	border: thin solid #999;
 }
 
 a.colorbox em {
@@ -133,6 +156,44 @@ ul.tabs li {
 
 img.image-center {
 	float:none;
+	width:30%;
+	height:auto;
+}
+
+
+.view-id-download .view-grouping-header {
+	font-size:18px;
+	color: rgb(114, 114, 114);
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-weight: normal;
+	margin-bottom: 6px;
+	line-height: 125%;
+}
+
+.view-id-download h3 {
+	font-size:14px;
+}
+
+#main-menu a {
+	font-size: 11px;
+}
+
+.page-data .views-field-name {
+	clear:both;
+	margin-top:1em;
+}
+
+.page-data .views-field-description, .page-data .views-row p {
+	margin-bottom:0;
+	display:block;
+	position:relative;
+}
+
+.page-data .meta {
+	font-size:.8em;
+	text-transform:uppercase;
+	display:block;
+	position:relative;
 }
 
 .image-right {
@@ -228,6 +289,7 @@ blockquote p {
 	background:#FFF;
 	border:0;
 	margin:.5em;
+	padding:.5em;
 }
 
 .view-id-intersection_national_priorities .term-11,
@@ -236,13 +298,16 @@ blockquote p {
 .view-id-intersection_national_priorities .term-14 {
 	display:inline-table;
 	text-align:center;
-	width:100%;
 	color:#000;
+	width:67px;
+	text-align:center;
+	vertical-align:middle;
 
 }
 
 .view-id-intersection_national_priorities .term-11 {
 	background-color:#FFF;
+
 }
 
 .view-id-intersection_national_priorities .term-12 {
@@ -320,6 +385,12 @@ td.navlink-next {
 	font-size:.85em;
 	text-transform:none;
 	color:#666;
+}
+
+
+.page-data-sources .view-data-sources .view-content .views-row {
+	margin-left:2em;
+	margin-bottom:2em;
 }
 
 /* FOOTER STYLES */
