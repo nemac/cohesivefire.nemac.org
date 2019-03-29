@@ -13,21 +13,21 @@
 }
 
 .jcarousel-skin-default .jcarousel-container-horizontal {
-  width: auto;
+  width: 440px;
   height: 102px;
   padding: 20px 40px;
   margin: auto;
 }
 
 .jcarousel-skin-default .jcarousel-container-vertical {
-  width: 200px;
+  width: 102px;
   height: 440px;
-  padding: 10px 10px;
+  padding: 40px 20px;
   margin: auto;
 }
 
 .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width: auto;
+  width: 440px;
   overflow: hidden;
 }
 
@@ -38,8 +38,8 @@
 
 .jcarousel-skin-default .jcarousel-item {
   padding: 0;
-  width: 170px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   border: 1px solid #CCC;
   list-style: none;
